@@ -1,0 +1,12 @@
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\CreateDataBase.exe.config
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\CreateDataBase.exe
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\CreateDataBase.pdb
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EFCodeFirst.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EntityFramework.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EFCodeFirst.pdb
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EntityFramework.xml
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\obj\Debug\CreateDataBase.csprojResolveAssemblyReference.cache
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\obj\Debug\CreateDataBase.exe
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\CreateDataBase\obj\Debug\CreateDataBase.pdb

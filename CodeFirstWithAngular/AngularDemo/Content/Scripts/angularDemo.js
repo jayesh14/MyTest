@@ -1,0 +1,1 @@
+﻿var serviceBase = 'http://localhost/WebApiDemo/';

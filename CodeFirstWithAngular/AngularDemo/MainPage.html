@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" ng-controller="MainController">
+<head>
+    <title></title>
+
+    <link href="Content/Styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Styles/AngularDemo.css" rel="stylesheet" />
+    <link href="Content/Styles/ui-grid.css" rel="stylesheet" />
+</head>
+<body>
+    <style>
+        .dialog-background {
+            background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+            height: 100%;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 20000;
+        }
+
+        .dialog-loading-wrapper {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+            border: 0 none;
+            height: 40px;
+            left: 50%;
+            margin-left: -20px;
+            margin-top: -20px;
+            position: fixed;
+            top: 50%;
+            width: 40px;
+            z-index: 9999999;
+        }
+
+        .loading {
+            -webkit-animation-name: spin;
+            -webkit-animation-duration: 1500ms;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: spin;
+            -moz-animation-duration: 1500ms;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            -ms-animation-name: spin;
+            -ms-animation-duration: 1500ms;
+            -ms-animation-iteration-count: infinite;
+            -ms-animation-timing-function: linear;
+            animation-name: spin;
+            animation-duration: 1500ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    </style>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+            </div>
+            <ul class="nav navbar-nav">
+                <li> <a class="navbar-brand" ui-sref="home">home</a></li>
+                <li><a ui-sref="pageFirst">pageFirst</a></li>
+                <li data-ng-hide="!IsAuthenticated"><a ui-sref="student">Student</a></li>
+                <li data-ng-hide="!IsAuthenticated"><a ui-sref="product">Product</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li data-ng-hide="!IsAuthenticated"><a href="#">Welcome, {{ UserName }}</a></li>
+                <li data-ng-hide="!IsAuthenticated"><a href="#/myInfo">My Info</a></li>
+                <li data-ng-hide="!IsAuthenticated"><a href="" data-ng-click="logOut()">Logout</a></li>
+                <li data-ng-hide="IsAuthenticated"><a ui-sref="login">  Login</a></li>
+                <li data-ng-hide="IsAuthenticated"><a ui-sref="register">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <loading></loading>
+        <div ui-view="containerOne"></div>
+    </div>
+
+
+
+    <script src="Content/Scripts/jquery.min.js"></script>
+    <script src="Content/Scripts/angular.min.js"></script>
+
+    <script src="Content/Scripts/ui-bootstrap.min.js"></script>
+    <script src="Content/Scripts/ui-bootstrap-tpls.min.js"></script>
+    <script src="Content/Scripts/angular-ui-router.min.js"></script>
+    <script src="Content/Scripts/angular-animate.min.js"></script>
+    <script src="Content/Scripts/angular-messages.js"></script>
+    <script src="Content/Scripts/angularDemo.js"></script>
+    <script src="Content/Scripts/ngStorage.min.js"></script>
+    <script src="Content/Scripts/angular-touch.js"></script>
+
+    <script src="Content/Scripts/csv.js"></script>
+    <script src="Content/Scripts/pdfmake.js"></script>
+    <script src="Content/Scripts/vfs_fonts.js"></script>
+    <script src="Content/Scripts/ui-grid.js"></script>
+   
+
+
+    <script src="AppJs/app.js"></script>
+    <script src="AppJs/services/AuthenticationService.js"></script>
+    <script src="AppJs/services/AuthData.js"></script>
+    <script src="AppJs/services/LoginService.js"></script>
+    <script src="AppJs/services/UserService.js"></script>
+    <script src="AppJs/services/StudentService.js"></script>
+    <script src="AppJs/services/ProductService.js"></script>
+
+    <script src="AppJs/Controller/MainController.js"></script>
+    <script src="AppJs/Controller/HomeController.js"></script>
+    <script src="AppJs/Controller/pageFirstController.js"></script>
+    <script src="AppJs/Controller/ModalInstanceCtrl.js"></script>
+    <script src="AppJs/Controller/UserManagement/Login.js"></script>
+    <script src="AppJs/Controller/UserManagement/Register.js"></script>
+    <script src="AppJs/Controller/StudentManagement/StudentController.js"></script>
+    <script src="AppJs/Controller/ProductController.js"></script>
+    <script src="AppJs/directives/ValidationDirective.js"></script>
+
+    <script>
+        var emailPattern = "/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/";
+    </script>
+</body>
+
+
+</html>

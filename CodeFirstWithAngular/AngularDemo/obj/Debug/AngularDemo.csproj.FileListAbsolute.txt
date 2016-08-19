@@ -1,0 +1,6 @@
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\bin\AngularDemo.dll.config
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\bin\AngularDemo.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\bin\AngularDemo.pdb
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\obj\Debug\AngularDemo.csprojResolveAssemblyReference.cache
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\obj\Debug\AngularDemo.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\AngularDemo\obj\Debug\AngularDemo.pdb

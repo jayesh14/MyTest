@@ -1,0 +1,30 @@
+﻿
+
+<button type="button" class="btn btn-default" ng-click="add('lg',0)">Add</button>
+<button type="button" class="btn btn-default" ng-click="refresh()">Refresh Grid</button>
+
+<!--<div id="grid1" ui-grid="productModel" ui-grid-pagination class="ui-grid"></div>--> 
+
+<div ui-grid="productModel" ui-grid-pagination class="grid"></div>
+
+
+
+
+<p>Current page: {{ gridApi.pagination.getPage() }} of {{ gridApi.pagination.getTotalPages() }}</p>
+
+<button type="button" class="btn btn-success" ng-click="goTO(1)">
+    First page
+</button>
+
+
+<button type="button" class="btn btn-success" ng-click="gridApi.pagination.previousPage()">
+    previous page
+</button>
+
+<button type="button" class="btn btn-success" ng-click="gridApi.pagination.nextPage()">
+    next page
+</button>
+
+<button type="button" class="btn btn-success" ng-click="gridApi.pagination.seek(3)">
+    last page
+</button>

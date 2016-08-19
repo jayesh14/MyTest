@@ -1,0 +1,12 @@
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EFCodeFirst.dll.config
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EFCodeFirst.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EFCodeFirst.pdb
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EntityFramework.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EntityFramework.xml
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\obj\Debug\EFCodeFirst.csprojResolveAssemblyReference.cache
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\obj\Debug\EFCodeFirst.dll
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\obj\Debug\EFCodeFirst.pdb
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\obj\Debug\EFCodeFirst.Migrations.InitialCreate.resources
+D:\Learing\CodeFirstWithAngular\CodeFirstWithAngular\EFCodeFirst\obj\Debug\EFCodeFirst.csproj.GenerateResource.Cache

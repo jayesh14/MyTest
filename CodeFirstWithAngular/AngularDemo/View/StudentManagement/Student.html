@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <style>
+          
+    </style>
+    <button type="button" class="btn btn-default" ng-click="add('lg',0)">Add</button>
+    <button type="button" class="btn btn-default" ng-click="refresh()">Refresh Grid</button>
+    <!--<div ng-repeat="n in studentModel track by $index">
+        {{n.StudentName}}
+    </div>-->
+    <div>
+        <div id="grid1" ui-grid="studentModel"  ui-grid-pagination class="ui-grid"></div> <!--ui-grid-selection-->
+    </div>
+    <!--<div>
+        <div ui-grid="gridOptions" ui-grid-pagination class="grid"></div>
+    </div>-->  
+
+   
+
+</body>
+</html>
